@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevConnect Login</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h1>DevConnect</h1>
+      <h2>Login</h2>
+
+      <form action="/auth/login" method="POST">
+        <input type="email" name="email" placeholder="Enter email" required>
+        <input type="password" name="password" placeholder="Enter password" required>
+
+        <button type="submit">Login</button>
+      </form>
+
+      <p>Don't have an account? <a href="/register">Register</a></p>
+    </div>
+  </div>
+
+</body>
+</html>

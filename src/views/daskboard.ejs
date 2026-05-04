@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevConnect Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <div class="dashboard">
+    <div class="dashboard-card">
+      <h1>Welcome, <%= user.name %> 👋</h1>
+      <p>Email: <%= user.email %></p>
+
+      <h2>DevConnect Dashboard Open Ho Gaya ✅</h2>
+      <p>Ab yaha posts, comments, profile wagaira add kar sakte ho.</p>
+
+      <form action="/auth/logout" method="POST">
+        <button type="submit">Logout</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
